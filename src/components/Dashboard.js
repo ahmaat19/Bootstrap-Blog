@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Featured from './Featured';
 import Footer from './Footer';
 import Header from './Header';
 import LatestPosts from './LatestPosts';
@@ -10,7 +11,7 @@ const Dashboard = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 500);
   }, []);
 
   return loading ? (
@@ -18,6 +19,7 @@ const Dashboard = () => {
   ) : (
     <div>
       <Header />
+      <Featured />
       <div className='row'>
         <div className='col-lg-9  col-12'>
           <LatestPosts />

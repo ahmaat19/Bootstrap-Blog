@@ -1,4 +1,5 @@
 import React from 'react';
+import Pagination from './Pagination';
 
 const LatestPosts = () => {
   return (
@@ -48,6 +49,7 @@ const LatestPosts = () => {
           </div>
           <div className='col-md-8'>
             <div className='card-body'>
+              <span className='tag'>GUIDE, LIFESTYLE</span>
               <h5 className='card-title'>
                 {' '}
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.{' '}
@@ -80,6 +82,7 @@ const LatestPosts = () => {
           </div>
           <div className='col-md-8'>
             <div className='card-body'>
+              <span className='tag'>GUIDE, LIFESTYLE</span>
               <h5 className='card-title'>
                 {' '}
                 Theworldlinks 12 reasons to Say Yes to Travelling -
@@ -113,6 +116,7 @@ const LatestPosts = () => {
           </div>
           <div className='col-md-8'>
             <div className='card-body'>
+              <span className='tag'>GUIDE, LIFESTYLE</span>
               <h5 className='card-title'>
                 {' '}
                 Theworldlinks 12 reasons to Say Yes to Travelling -
@@ -146,6 +150,7 @@ const LatestPosts = () => {
           </div>
           <div className='col-md-8'>
             <div className='card-body'>
+              <span className='tag'>GUIDE, LIFESTYLE</span>
               <h5 className='card-title'>
                 {' '}
                 Theworldlinks 12 reasons to Say Yes to Travelling -
@@ -179,6 +184,7 @@ const LatestPosts = () => {
           </div>
           <div className='col-md-8'>
             <div className='card-body'>
+              <span className='tag'>GUIDE, LIFESTYLE</span>
               <h5 className='card-title'>
                 {' '}
                 Theworldlinks 12 reasons to Say Yes to Travelling -
@@ -201,6 +207,8 @@ const LatestPosts = () => {
           </div>
         </div>
       </div>
+      {/* Pagination */}
+      <Pagination />
     </div>
   );
 };

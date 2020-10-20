@@ -2,10 +2,9 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className='row my-5'>
-      <hr />
+    <div className='row my-5 gy-4'>
       <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
-        <h5 className='text-muted mb-3'>About Us</h5> <hr />
+        <h5 className='text-muted mb-3 font-weight-bold'>About Us</h5> <hr />
         <h3 className='text-muted'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </h3>
@@ -16,9 +15,9 @@ function Footer() {
           varius. Etiam iaculis feugiat tortor ac ornare.
         </p>
       </div>
-
       <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
-        <h5 className='text-muted mb-3'>Trending Slider</h5> <hr />
+        <h5 className='text-muted mb-3 font-weight-bold'>Trending Slider</h5>{' '}
+        <hr />
         <div id='footer-slider' class='carousel slide' data-ride='carousel'>
           <ol class='carousel-indicators'>
             <li
@@ -89,38 +88,42 @@ function Footer() {
           </a>
         </div>
       </div>
-
       <div className='col-lg-4 col-md-6 col-sm-6 col-12 '>
-        <h5 className='text-muted mb-3'>Hash tags</h5> <hr />
+        <h5 className='text-muted mb-3 font-weight-bold'>Hash Tags</h5> <hr />
         <div className='g-5'>
-          <span className='badge bg-secondary rounded-pill m-2 py-1 px-2'>
+          <span className='badge btn btn-secondary rounded-pill m-2 py-1 px-2'>
             #DESIGN
           </span>
-          <span className='badge bg-secondary rounded-pill m-2 py-1 px-2'>
+          <span className='badge btn btn-secondary rounded-pill m-2 py-1 px-2'>
             #TECHNOLOGY
           </span>
-          <span className='badge bg-secondary rounded-pill m-2 py-1 px-2'>
+          <span className='badge btn btn-secondary rounded-pill m-2 py-1 px-2'>
             #ACCOUNTING
           </span>
-          <span className='badge bg-secondary rounded-pill m-2 py-1 px-2'>
+          <span className='badge btn btn-secondary rounded-pill m-2 py-1 px-2'>
             #FINANCE
           </span>
-          <span className='badge bg-secondary rounded-pill m-2 py-1 px-2'>
+          <span className='badge btn btn-secondary rounded-pill m-2 py-1 px-2'>
             #LIFESTYLE
           </span>
-          <span className='badge bg-secondary rounded-pill m-2 py-1 px-2'>
+          <span className='badge btn btn-secondary rounded-pill m-2 py-1 px-2'>
             #COPUTER
           </span>
-          <span className='badge bg-secondary rounded-pill m-2 py-1 px-2'>
+          <span className='badge btn btn-secondary rounded-pill m-2 py-1 px-2'>
             #BUSINESS
           </span>
-          <span className='badge bg-secondary rounded-pill m-2 py-1 px-2'>
+          <span className='badge btn btn-secondary rounded-pill m-2 py-1 px-2'>
             #ECONOMICS
           </span>
-          <span className='badge bg-secondary rounded-pill m-2 py-1 px-2'>
+          <span className='badge btn btn-secondary rounded-pill m-2 py-1 px-2'>
             #NEWS
           </span>
         </div>
+      </div>
+
+      <div className='modal-footer  float-right mt-5 text-center'>
+        Developer contact:{' '}
+        <a href='mailto:ahmaat19@gmail.com'>ahmaat19@gmail.com</a>
       </div>
     </div>
   );
