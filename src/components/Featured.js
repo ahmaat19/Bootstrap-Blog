@@ -19,7 +19,7 @@ const Featured = () => {
             </p>
             <p className='card-text'>
               <small className='text-muted'>
-                <i className='fa fa-user'></i> Ahmed,{' '}
+                <i className='fa fa-user'></i> Ahmed |{' '}
                 <i className='fa fa-clock'></i> 3 mins ago |{' '}
                 <i className='fa fa-comments'></i> 23
               </small>
@@ -42,7 +42,7 @@ const Featured = () => {
             </p>
             <p className='card-text'>
               <small className='text-muted'>
-                <i className='fa fa-user'></i> Ahmed,{' '}
+                <i className='fa fa-user'></i> Ahmed |{' '}
                 <i className='fa fa-clock'></i> 3 mins ago |{' '}
                 <i className='fa fa-comments'></i> 23
               </small>
@@ -65,7 +65,7 @@ const Featured = () => {
             </p>
             <p className='card-text'>
               <small className='text-muted'>
-                <i className='fa fa-user'></i> Ahmed,{' '}
+                <i className='fa fa-user'></i> Ahmed |{' '}
                 <i className='fa fa-clock'></i> 3 mins ago |{' '}
                 <i className='fa fa-comments'></i> 23
               </small>

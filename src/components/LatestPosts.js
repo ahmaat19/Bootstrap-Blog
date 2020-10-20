@@ -29,7 +29,7 @@ const LatestPosts = () => {
               </p>
               <p className='card-text'>
                 <small className='text-muted'>
-                  <i className='fa fa-user'></i> Ahmed,{' '}
+                  <i className='fa fa-user'></i> Ahmed |{' '}
                   <i className='fa fa-clock'></i> Last updated 3 mins ago |{' '}
                   <i className='fa fa-comments'></i> 23
                 </small>
@@ -62,7 +62,7 @@ const LatestPosts = () => {
               </p>
               <p className='card-text'>
                 <small className='text-muted'>
-                  <i className='fa fa-user'></i> Ahmed,{' '}
+                  <i className='fa fa-user'></i> Ahmed |{' '}
                   <i className='fa fa-clock'></i> Last updated 5 days ago |{' '}
                   <i className='fa fa-comments'></i> 23
                 </small>
@@ -96,7 +96,7 @@ const LatestPosts = () => {
               </p>
               <p className='card-text'>
                 <small className='text-muted'>
-                  <i className='fa fa-user'></i> Ahmed,{' '}
+                  <i className='fa fa-user'></i> Ahmed |{' '}
                   <i className='fa fa-clock'></i> Last updated 3 hrs ago |{' '}
                   <i className='fa fa-comments'></i> 23
                 </small>
@@ -130,7 +130,7 @@ const LatestPosts = () => {
               </p>
               <p className='card-text'>
                 <small className='text-muted'>
-                  <i className='fa fa-user'></i> Ahmed,{' '}
+                  <i className='fa fa-user'></i> Ahmed |{' '}
                   <i className='fa fa-clock'></i> Last updated 3 hrs ago |{' '}
                   <i className='fa fa-comments'></i> 23
                 </small>
@@ -164,7 +164,7 @@ const LatestPosts = () => {
               </p>
               <p className='card-text'>
                 <small className='text-muted'>
-                  <i className='fa fa-user'></i> Ahmed,{' '}
+                  <i className='fa fa-user'></i> Ahmed |{' '}
                   <i className='fa fa-clock'></i> Last updated 3 hrs ago |{' '}
                   <i className='fa fa-comments'></i> 23
                 </small>
@@ -198,7 +198,7 @@ const LatestPosts = () => {
               </p>
               <p className='card-text'>
                 <small className='text-muted'>
-                  <i className='fa fa-user'></i> Ahmed,{' '}
+                  <i className='fa fa-user'></i> Ahmed |{' '}
                   <i className='fa fa-clock'></i> Last updated 3 hrs ago |{' '}
                   <i className='fa fa-comments'></i> 23
                 </small>
