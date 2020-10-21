@@ -22,3 +22,19 @@ p {
   font-size: 24px;
   cursor: pointer;
 }
+
+.comment-body {
+  background-color: rgba(112, 112, 112, 0.082);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.comment-card {
+  width: 100%;
+  display: flex;
+}
+.comment-avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}

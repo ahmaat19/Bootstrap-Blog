@@ -18,7 +18,7 @@ const Sidebar = () => {
             experience to your clients and readers.
           </p>
           <a href='' className='btn btn-secondary rounded-lg'>
-            lear more
+            learn more
           </a>
         </div>
       </div>
