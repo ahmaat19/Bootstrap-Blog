@@ -13,7 +13,7 @@ const Header = () => {
       <nav class='navbar navbar-expand-lg mt-3'>
         <div class='container-fluid'>
           <button
-            class='navbar-toggler'
+            class='navbar-toggler shadow-none'
             type='button'
             data-toggle='collapse'
             data-target='#navbarTogglerDemo01'
@@ -21,7 +21,10 @@ const Header = () => {
             aria-expanded='false'
             aria-label='Toggle navigation'
           >
-            <span class='navbar-toggler-icon'></span>
+            <span class='navbar-toggler-icon bars'>
+              {' '}
+              <i class='fa fa-bars'></i>{' '}
+            </span>
           </button>
           <div class='collapse navbar-collapse' id='navbarTogglerDemo01'>
             <ul class='navbar-nav mx-auto mb-2 mb-lg-0'>

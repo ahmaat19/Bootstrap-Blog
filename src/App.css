@@ -45,3 +45,8 @@ p {
 .card-link-title:hover {
   color: rgb(71, 71, 71);
 }
+.bars {
+  font-size: 25px;
+  margin-left: -20px;
+  color: rgb(71, 71, 71);
+}
