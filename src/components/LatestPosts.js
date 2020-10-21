@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Pagination from './Pagination';
 
 const LatestPosts = () => {
@@ -17,10 +18,14 @@ const LatestPosts = () => {
           <div className='col-md-8'>
             <div className='card-body'>
               <span className='tag'>GUIDE, LIFESTYLE</span>
-              <h5 className='card-title'>
-                {' '}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.{' '}
-              </h5>
+
+              <Link to='/post-detail' className='card-link-title'>
+                <h5 className='card-title'>
+                  {' '}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{' '}
+                </h5>
+              </Link>
+
               <p className='card-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 laoreet, nunc et accumsan cursus, neque eros sodales lectus,
@@ -50,10 +55,13 @@ const LatestPosts = () => {
           <div className='col-md-8'>
             <div className='card-body'>
               <span className='tag'>GUIDE, LIFESTYLE</span>
-              <h5 className='card-title'>
-                {' '}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.{' '}
-              </h5>
+
+              <Link to='/post-detail' className='card-link-title'>
+                <h5 className='card-title'>
+                  {' '}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{' '}
+                </h5>
+              </Link>
               <p className='card-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 laoreet, nunc et accumsan cursus, neque eros sodales lectus,
@@ -83,11 +91,13 @@ const LatestPosts = () => {
           <div className='col-md-8'>
             <div className='card-body'>
               <span className='tag'>GUIDE, LIFESTYLE</span>
-              <h5 className='card-title'>
-                {' '}
-                Theworldlinks 12 reasons to Say Yes to Travelling -
-                Theworldlinks{' '}
-              </h5>
+              <Link to='/post-detail' className='card-link-title'>
+                <h5 className='card-title'>
+                  {' '}
+                  Theworldlinks 12 reasons to Say Yes to Travelling -
+                  Theworldlinks{' '}
+                </h5>
+              </Link>
               <p className='card-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 laoreet, nunc et accumsan cursus, neque eros sodales lectus,
@@ -117,11 +127,13 @@ const LatestPosts = () => {
           <div className='col-md-8'>
             <div className='card-body'>
               <span className='tag'>GUIDE, LIFESTYLE</span>
-              <h5 className='card-title'>
-                {' '}
-                Theworldlinks 12 reasons to Say Yes to Travelling -
-                Theworldlinks{' '}
-              </h5>
+              <Link to='/post-detail' className='card-link-title'>
+                <h5 className='card-title'>
+                  {' '}
+                  Theworldlinks 12 reasons to Say Yes to Travelling -
+                  Theworldlinks{' '}
+                </h5>
+              </Link>
               <p className='card-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 laoreet, nunc et accumsan cursus, neque eros sodales lectus,
@@ -151,11 +163,13 @@ const LatestPosts = () => {
           <div className='col-md-8'>
             <div className='card-body'>
               <span className='tag'>GUIDE, LIFESTYLE</span>
-              <h5 className='card-title'>
-                {' '}
-                Theworldlinks 12 reasons to Say Yes to Travelling -
-                Theworldlinks{' '}
-              </h5>
+              <Link to='/post-detail' className='card-link-title'>
+                <h5 className='card-title'>
+                  {' '}
+                  Theworldlinks 12 reasons to Say Yes to Travelling -
+                  Theworldlinks{' '}
+                </h5>
+              </Link>
               <p className='card-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 laoreet, nunc et accumsan cursus, neque eros sodales lectus,
@@ -185,11 +199,13 @@ const LatestPosts = () => {
           <div className='col-md-8'>
             <div className='card-body'>
               <span className='tag'>GUIDE, LIFESTYLE</span>
-              <h5 className='card-title'>
-                {' '}
-                Theworldlinks 12 reasons to Say Yes to Travelling -
-                Theworldlinks{' '}
-              </h5>
+              <Link to='/post-detail' className='card-link-title'>
+                <h5 className='card-title'>
+                  {' '}
+                  Theworldlinks 12 reasons to Say Yes to Travelling -
+                  Theworldlinks{' '}
+                </h5>
+              </Link>
               <p className='card-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 laoreet, nunc et accumsan cursus, neque eros sodales lectus,

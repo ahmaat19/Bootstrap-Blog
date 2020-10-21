@@ -38,3 +38,10 @@ p {
   height: 60px;
   margin-right: 20px;
 }
+.card-link-title {
+  color: rgb(145, 144, 144);
+  text-decoration: none;
+}
+.card-link-title:hover {
+  color: rgb(71, 71, 71);
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Comments from './Comments';
 
 const SinglePost = () => {
@@ -70,6 +71,13 @@ const SinglePost = () => {
             />
             <div className='card-body'>
               <span className='tag'>GUIDE, LIFESTYLE</span>
+              <Link to='/post-detail' className='card-link-title'>
+                <h5 className='card-title'>
+                  {' '}
+                  Theworldlinks 12 reasons to Say Yes to Travelling -
+                  Theworldlinks{' '}
+                </h5>
+              </Link>
               <p className='card-text'>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -93,6 +101,13 @@ const SinglePost = () => {
             />
             <div className='card-body'>
               <span className='tag'>GUIDE, LIFESTYLE</span>
+              <Link to='/post-detail' className='card-link-title'>
+                <h5 className='card-title'>
+                  {' '}
+                  Theworldlinks 12 reasons to Say Yes to Travelling -
+                  Theworldlinks{' '}
+                </h5>
+              </Link>
               <p className='card-text'>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -116,6 +131,13 @@ const SinglePost = () => {
             />
             <div className='card-body'>
               <span className='tag'>GUIDE, LIFESTYLE</span>
+              <Link to='/post-detail' className='card-link-title'>
+                <h5 className='card-title'>
+                  {' '}
+                  Theworldlinks 12 reasons to Say Yes to Travelling -
+                  Theworldlinks{' '}
+                </h5>
+              </Link>
               <p className='card-text'>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
